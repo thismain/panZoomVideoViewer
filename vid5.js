@@ -126,7 +126,7 @@ el('panzoom').style.cursor='hand';
 
 delta = Math.max(-1, Math.min(1, (event.wheelDelta || -event.detail)));
 
-if(delta>0){zoom=1.2;}else if(delta<0){zoom=.8;}
+if(delta>0){zoom=1.1;}else if(delta<0){zoom=.9;}
 
 
 var mousex=parseFloat(event.clientX);
