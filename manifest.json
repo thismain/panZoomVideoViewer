@@ -2,7 +2,7 @@
 "update_url": "https://clients2.google.com/service/update2/crx",
 
 	"background": {"scripts": ["background.js"]},
-	"description": "Pan and Zoom Video files in Chrome. Handles .mp4, .webm, .ogg, .mov",
+	"description": "Pan and Zoom Video files in Chrome. Loads files of type .mp4, .webm, .ogg, and .mov",
 	"homepage_url": "http://localhost/",
 	"manifest_version": 2,
 	"name": "PanZoom Video Viewer",
