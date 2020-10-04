@@ -1,0 +1,24 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+	"background": {"scripts": ["background.js"]},
+	"description": "Pan and Zoom Video files in Chrome. Handles .mp4, .webm, .ogg, .mov",
+	"homepage_url": "http://localhost/",
+	"manifest_version": 2,
+	"name": "PanZoom Video Viewer",
+  "icons": { 
+    "16": "img/icon16.png",
+    "32": "img/icon32.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+  },
+    "web_accessible_resources": ["vid5.htm"],
+	"permissions": [
+		"file://*/*",
+		"http://*/*",
+		"https://*/*",
+		"tabs",
+		"webRequest"
+	],
+	"version": "1"
+}
